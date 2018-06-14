@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that public admin is able generate Day Goal Report and also to verify the colour of each goal is displayed based on display settings</description>
+   <name>HME-Goal Statistics Report-04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9f7103f-d46b-4658-acaf-908449bf60ee</testCaseGuid>
+</TestCaseEntity>

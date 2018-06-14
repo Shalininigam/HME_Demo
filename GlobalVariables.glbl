@@ -3,9 +3,9 @@
    <description></description>
    <tag></tag>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://uat.hmedtcloud.com/?pg=Login'</initValue>
-      <name>Superuser_url</name>
+      <description>UAT Url</description>
+      <initValue>'https://uat.hmedtcloud.com'</initValue>
+      <name>cloud_UATUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

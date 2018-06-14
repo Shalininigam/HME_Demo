@@ -4,7 +4,7 @@
    <name>RegressionSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-04T18:35:34</lastRun>
+   <lastRun>2018-06-11T15:41:24</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,33 +12,33 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>9d0b627b-a75b-4186-b869-581fc87ea0f0</testSuiteGuid>
    <testCaseLink>
-      <guid>e61ed930-6cb2-4cf4-b1e4-86d19a691166</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/SummaryReportsTC/HME-Summary Report-02</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>74905a73-1fc5-4cf9-94e7-8de79725feec</guid>
+      <guid>fc2e4495-2042-4927-bd3e-a6b1b87a0d5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SummaryReportsTC/HME-Summary Report-04</testCaseId>
+      <testCaseId>Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-02</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e1921798-7659-413f-9f28-6a274b0a2358</guid>
+      <guid>ab50a8be-c6eb-41d5-883f-7be201bea644</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SummaryReportsTC/HME-Summary Report-05</testCaseId>
+      <testCaseId>Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-03</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>13416f28-b476-44b1-9c03-a92017491fa3</guid>
+      <guid>47833e86-3a2d-4bc4-bbd0-23e24475fba6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SummaryReportsTC/HME-Summary Report-06</testCaseId>
+      <testCaseId>Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-04</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5bae61b9-edb7-4a38-953b-61c7f534bc48</guid>
+      <guid>8dd28e43-e1ec-4306-a8a9-167f3574160c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/SummaryReportsTC/HME-Summary Report-16</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MasqueradeTC/HME-Masquerade-05</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c0ee32a3-511b-42f9-8cf6-1c595f9aebc0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MultilingualTC/HME-JWT-04</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

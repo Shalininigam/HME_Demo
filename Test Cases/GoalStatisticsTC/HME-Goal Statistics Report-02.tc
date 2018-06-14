@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that public admin is able to generate weekly goal statistics report for selected groups/stores for selected duration</description>
+   <name>HME-Goal Statistics Report-02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69e44e7a-f069-464d-ac44-faba9bf7c7db</testCaseGuid>
+</TestCaseEntity>

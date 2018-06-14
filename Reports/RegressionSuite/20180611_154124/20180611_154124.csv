@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RegressionSuite,Chrome 67.0.3396.79,,11-06-2018 15:41,11-06-2018 16:18,36m - 49.431s,FAILED
+,,,,,,
+Test Cases/MasqueradeTC/HME-Masquerade-06,Chrome 67.0.3396.79,To verify that public admin can view all the pages which store admin views,11-06-2018 15:41,11-06-2018 15:52,10m - 48.894s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,11-06-2018 15:41,11-06-2018 15:41,4.225s,PASSED
+Statement - TCflag = true,Chrome 67.0.3396.79,,11-06-2018 15:41,11-06-2018 15:41,0.000s,PASSED
+Statement - Try,Chrome 67.0.3396.79,,11-06-2018 15:41,11-06-2018 15:52,10m - 43.582s,PASSED
+Statement - assert TCflag == true,Chrome 67.0.3396.79,,11-06-2018 15:52,11-06-2018 15:52,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,11-06-2018 15:52,11-06-2018 15:52,0.713s,PASSED
+,,,,,,
+Test Cases/SummaryReportsTC/HME-Summary Report-03,Chrome 67.0.3396.79,To verify that public admin is able to generate day summary report for selected groups/stores for selected duration,11-06-2018 15:52,11-06-2018 15:59,7m - 30.898s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,11-06-2018 15:52,11-06-2018 15:52,3.616s,PASSED
+Statement - TCflag = true,Chrome 67.0.3396.79,,11-06-2018 15:52,11-06-2018 15:52,0.000s,PASSED
+Statement - Try,Chrome 67.0.3396.79,,11-06-2018 15:52,11-06-2018 15:59,7m - 26.212s,PASSED
+Statement - assert TCflag == true,Chrome 67.0.3396.79,,11-06-2018 15:59,11-06-2018 15:59,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,11-06-2018 15:59,11-06-2018 15:59,0.690s,PASSED
+,,,,,,
+Test Cases/MultilingualTC/HME-JWT-03,Chrome 67.0.3396.79,To verify that application naviagates to respective URL properly,11-06-2018 15:59,11-06-2018 16:02,3m - 12.811s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,11-06-2018 15:59,11-06-2018 15:59,3.455s,PASSED
+Statement - TCflag = true,Chrome 67.0.3396.79,,11-06-2018 15:59,11-06-2018 15:59,0.000s,PASSED
+Statement - actual = null,Chrome 67.0.3396.79,,11-06-2018 15:59,11-06-2018 15:59,0.000s,PASSED
+Statement - expected = null,Chrome 67.0.3396.79,,11-06-2018 15:59,11-06-2018 15:59,0.001s,PASSED
+Statement - Try,Chrome 67.0.3396.79,,11-06-2018 15:59,11-06-2018 16:02,3m - 8.552s,PASSED
+Statement - assert TCflag == true,Chrome 67.0.3396.79,,11-06-2018 16:02,11-06-2018 16:02,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,11-06-2018 16:02,11-06-2018 16:02,0.662s,PASSED
+,,,,,,
+Test Cases/MultilingualTC/HME-Multilingual-02,Chrome 67.0.3396.79,To verify that application displays the text in user preferenced language,11-06-2018 16:02,11-06-2018 16:09,6m - 59.825s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,11-06-2018 16:02,11-06-2018 16:03,3.250s,PASSED
+Statement - TCflag = true,Chrome 67.0.3396.79,,11-06-2018 16:03,11-06-2018 16:03,0.000s,PASSED
+Statement - actual = null,Chrome 67.0.3396.79,,11-06-2018 16:03,11-06-2018 16:03,0.000s,PASSED
+Statement - expected = null,Chrome 67.0.3396.79,,11-06-2018 16:03,11-06-2018 16:03,0.000s,PASSED
+Statement - Try,Chrome 67.0.3396.79,,11-06-2018 16:03,11-06-2018 16:09,6m - 55.629s,PASSED
+Statement - assert TCflag == true,Chrome 67.0.3396.79,,11-06-2018 16:09,11-06-2018 16:09,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,11-06-2018 16:09,11-06-2018 16:09,0.711s,PASSED
+,,,,,,
+Test Cases/MultilingualTC/HME-Multilingual-01,Chrome 67.0.3396.79,To verify that application displays the text in user preferenced language,11-06-2018 16:09,11-06-2018 16:18,8m - 16.493s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,11-06-2018 16:09,11-06-2018 16:10,3.238s,PASSED
+Statement - TCflag = true,Chrome 67.0.3396.79,,11-06-2018 16:10,11-06-2018 16:10,0.000s,PASSED
+Statement - actual = null,Chrome 67.0.3396.79,,11-06-2018 16:10,11-06-2018 16:10,0.000s,PASSED
+Statement - expected = null,Chrome 67.0.3396.79,,11-06-2018 16:10,11-06-2018 16:10,0.000s,PASSED
+Statement - Try,Chrome 67.0.3396.79,,11-06-2018 16:10,11-06-2018 16:18,8m - 12.261s,FAILED
+Statement - assert TCflag == true,Chrome 67.0.3396.79,,11-06-2018 16:18,11-06-2018 16:18,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,11-06-2018 16:18,11-06-2018 16:18,0.715s,PASSED

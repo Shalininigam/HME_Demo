@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify that public admin is able generate Day Goal Report when there is only 2 goal set.</description>
+   <name>HME-Goal Statistics Report-03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f5dcc9a-2283-4a6e-8703-5a3904bef2b5</testCaseGuid>
+</TestCaseEntity>

@@ -31,11 +31,11 @@ boolean TCflag=true
 try{
 	WebUI.navigateToUrl(GlobalVariable.devPublicCloudUrl)
 	WebUI.delay(GlobalVariable.MED_DELAY)
-	WebUI.navigateToUrl(GlobalVariable.devPublicCloudUrl)
+	//WebUI.navigateToUrl(GlobalVariable.devPublicCloudUrl)
 
-	CustomKeywords.'projectSpecific.Reusability.login'(CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudUsername"),CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudPassword"))
+	CustomKeywords.'projectSpecific.Reusability.login'(CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudUsername"),CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","Password"))
 	WebUI.delay(GlobalVariable.LONG_DELAY)
-	WebUI.delay(GlobalVariable.LONG_DELAY)
+	//WebUI.delay(GlobalVariable.LONG_DELAY)
 
 	//Pre-Condition : To redirect to Group hirerchy page
 	'Click on Stores Link'
@@ -81,38 +81,18 @@ try{
 
 	//Step1 : To verify that user is able to select Groups
 	WebUI.delay(GlobalVariable.MED_DELAY)
-	
+
 	String groupmain=CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportingGroupManagementPage","dummyGroupName1")
 	driver.findElement(By.xpath("//span[contains(text(),'"+groupmain+"')]/../../../../span[2]")).click()
+
 	
-	/*CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('ReportsPage/AllStoresCheckbox'))
-
-	List<WebElement> storesCheckBoxList = driver.findElements(By.xpath(findTestData('OR_file').getValue(2, 4)))
-
-	List<WebElement> storesCheckBoxListChecked = driver.findElements(By.xpath(findTestData('OR_file').getValue(2, 14)))
-
-	if(storesCheckBoxList.size()==storesCheckBoxListChecked.size())
-	{
-		System.out.println("All Store checkboxes are checked")
-
-	}
-
-	else{
-		if(TCflag)
-			TCflag=false
-		System.out.println("Store checkboxes are unchecked")
-	}*/
-
 	WebUI.delay(GlobalVariable.MED_DELAY)
 
 	//To get the Criteria Store List
 
 	WebUI.mouseOver(findTestObject('ReportsPage/mouseOver'))
 
-
-	//List<WebElement> criteriaStoreList=driver.findElements(By.xpath("//div[@class='storesTooltip ']/span"))
-
-
+	
 	List<WebElement> criteriaStoreList = driver.findElements(By.xpath(findTestData('OR_file').getValue(2, 15)))
 	List<String> criteriaSTList=new ArrayList<String>();
 	for(int i=0;i<criteriaStoreList.size();i++)
@@ -303,7 +283,7 @@ try{
 	if(date1.contains(todayDate))
 		println "matched"
 
-		WebUI.delay(GlobalVariable.MIN_DELAY)
+	WebUI.delay(GlobalVariable.MIN_DELAY)
 	String firstDateRange =CustomKeywords.'projectSpecific.Reusability.getTestData'("SummarizedReportPage","firstDateRange")
 	WebUI.verifyElementText(findTestObject('SummarizedReportPage/firstWeekDateRange'),firstDateRange)
 
@@ -337,32 +317,31 @@ try{
 	println storeNamesList
 
 	boolean contains=true
-	
+
 	for(int i=0;i<criteriaSTList.size();i++){
-		
-		
+
+
 		if(storeNamesList.contains(criteriaSTList[i])){
 			println "Store names are listed"
-			
+
 		}else{
-		if(TCflag)
-		TCflag=false
-	println "Store name is not listed"
-		
+			if(TCflag)
+				TCflag=false
+			println "Store name is not listed"
+
 		}
 	}
 
 	//contains=criteriaSTList.containsAll(storeNamesList)
 	/*if(!contains)
-	{
-		if(TCflag)
-			TCflag=false
-		println "Store name is not listed"
-
-	}
-	else{
-		println "Store names are listed"
-	}*/
+	 {
+	 if(TCflag)
+	 TCflag=false
+	 println "Store name is not listed"
+	 }
+	 else{
+	 println "Store names are listed"
+	 }*/
 
 	//Step 11 'To verify the column headers displayed in the Average Time(min:sec) grid'
 	/* The below column headers will be shown in the grid:
@@ -374,7 +353,7 @@ try{
 	 6. Lane Total
 	 7. Total Cars*/
 
-	String reportHeaders =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","ReportsColumnHeader")
+	String reportHeaders =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","ReportsColumnHeader1")
 	String[] reportsArray=reportHeaders.split(',')
 
 	def reportsHeaderList=new ArrayList(Arrays.asList(reportsArray))
@@ -549,34 +528,188 @@ try{
 	String row2 =CustomKeywords.'projectSpecific.Reusability.getTestData'("SummarizedReportPage","row2belowWeekHeader")
 	WebUI.verifyElementText(findTestObject('SummarizedReportPage/row2BelowWeekHeader'),row2)
 
+	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('HomePage/logoutLink'))
+
+	//Login as CSV User credentials
+
+	WebUI.navigateToUrl(GlobalVariable.devPublicCloudUrl)
+	WebUI.delay(GlobalVariable.MED_DELAY)
+
+	CustomKeywords.'projectSpecific.Reusability.login'(CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","Usernamefor_csv"),CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","password_csv"))
+
+	WebUI.delay(GlobalVariable.MED_DELAY)
+
+	'Click on Reports Link'
+	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('UsersPage/reportsLink'))
+
+	//Step1 : To verify that user is able to select Groups
+	WebUI.delay(GlobalVariable.MED_DELAY)
+
+	groupmain=CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportingGroupManagementPage","dummyGroupName1")
+	driver.findElement(By.xpath("//span[contains(text(),'"+groupmain+"')]/../../../../span[2]")).click()
+
+	//To verify that user is able to select time measure
+
+	'Select time'
+	WebUI.click(findTestObject('ReportsPage/timeSelection'))
+
+	'Click on week option'
+	WebUI.click(findTestObject('ReportsPage/weekTimeOption'))
+
+	WebUI.click(findTestObject('ReportsPage/summaryReportHeading'))
+
+	'verify week is displayed in TimeSelection dropdown'
+
+	WebUI.verifyElementText(findTestObject('ReportsPage/weekTimeOption'),CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","weekTimeSelection"))
+
+	'verify week is displayed in criteria week selection'
+	WebUI.verifyElementText(findTestObject('ReportsPage/criteriaTimeMeasure'),CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","criteriaWeekTimeSelection"))
+
+	//Step 3: To verify that user is able to select From and To date by using calendar controls
+	WebUI.delay(GlobalVariable.MIN_DELAY)
+
+	WebUI.click(findTestObject('ReportsPage/fromDateSelector'))
+
+	WebUI.delay(GlobalVariable.MIN_DELAY)
+
+	monthText=WebUI.getText(findTestObject('ReportsPage/monthText'))
+	monthTextArray= monthText.split(" ")
+	month = monthTextArray[0]
+
+	monthTextValue=CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","Month")
+
+	if(!monthTextValue.equals(month))
+	{
+		while(!monthTextValue.equals(month))
+		{
+			WebUI.click(findTestObject('ReportsPage/previousDateSelector'))
+			monthText=WebUI.getText(findTestObject('ReportsPage/monthText'))
+			monthTextArray= monthText.split(" ")
+			month = monthTextArray[0]
+
+		}
+
+	}
+
+	data = CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","StartDate")
+	startDate="(//td[text()='"+data+"'])[1]"
+	println startDate
+	startdateEle=driver.findElement(By.xpath(startDate))
+	startdateEle.click()
+
+	WebUI.delay(GlobalVariable.MIN_DELAY)
+
+	WebUI.click(findTestObject('ReportsPage/toDateSelector'))
+
+	monthText=WebUI.getText(findTestObject('ReportsPage/monthText2'))
+	monthTextArray= monthText.split(" ")
+	month = monthTextArray[0]
+
+	if(!monthTextValue.equals(month))
+	{
+		while(!monthTextValue.equals(month))
+		{
+			WebUI.click(findTestObject('ReportsPage/previousDateSelector2'))
+			monthText=WebUI.getText(findTestObject('ReportsPage/monthText2'))
+			monthTextArray= monthText.split(" ")
+			month = monthTextArray[0]
+
+		}
+
+
+	}
+
+	endDate=CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","EndDate")
+
+	toDate="(//td[text()='"+endDate+"'])[2]"
+
+	toDateEle=driver.findElement(By.xpath(toDate))
+	toDateEle.click()
+
+	WebUI.delay(GlobalVariable.MIN_DELAY)
+
+	dateAttr =WebUI.getAttribute(findTestObject('ReportsPage/selectedDate1'),"value")
+
+	fromDateValue =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","fromDate")
+	if(!dateAttr.equals(fromDateValue))
+	{
+		if(TCflag)
+			TCflag=false
+		println "From date is not selected properly"
+		WebUI.takeScreenshot()
+	}
+
+	dateAttr =WebUI.getAttribute(findTestObject('ReportsPage/selectedDate2'),"value")
+
+	toDateValue =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","toDate")
+	if(!dateAttr.equals(toDateValue))
+	{
+		if(TCflag)
+			TCflag=false
+		println "to Date is not selected properly"
+		WebUI.takeScreenshot()
+	}
+
+	//Step6 : To Generate report
+	'click GenerateReport button'
+	WebUI.click(findTestObject('ReportsPage/generateReport'))
+
+	WebUI.delay(GlobalVariable.LONG_DELAY)
+
+	'Click on first store'
+	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('SummarizedReportPage/storeFirst'))
+	
+	WebUI.delay(GlobalVariable.MED_DELAY)
+
 	//Step 18: To verify the weekly report in CSV format
 	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('SummarizedReportPage/downloadBtn'))
 	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('SummarizedReportPage/csvLink'))
 
+	WebUI.delay(GlobalVariable.LONG_DELAY)
+	//code to read the email and read the download file
+	List<String> s=CustomKeywords.'projectSpecific.Reusability.checkemailandverifyattachment'()
+
+	System.out.println("the text is---"+s.get(0))
+	
+		String englishmatch=s.get(0).substring(0, 7)
+		
+		
+		
+	if(englishmatch.contains("W") && englishmatch.contains("e") && englishmatch.contains("e") && englishmatch.contains("k")){
+	
+			System.out.println("Downloaded CSV file  displayed Week report")
+	
+		}else{
+			if(TCflag)
+				TCflag=false
+			System.out.println("Downloaded CSV file  not displayed Week report")
+	
+		}
+	
 	//Step 19: To verify the CSV file (Pending) from here till 34 steps is pending
 
 
 	//Post-Condition : Deleting the created group
-	
-		CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('HomePage/welcomeLink'))
-	
-		WebUI.delay(GlobalVariable.MIN_DELAY)
-	
-		'Click on Stores Link'
-		CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('HomePage/storesLink'))
-		WebUI.delay(GlobalVariable.MIN_DELAY)
-	
-		CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('StorePage/ManageReportGroupsButtton'))
-		WebUI.delay(GlobalVariable.MED_DELAY)
-	
-		CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('ReportingGroupManagement/groupdummy1'))
-	
-		WebUI.delay(GlobalVariable.MIN_DELAY)
-		CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('ReportingGroupManagement/deleteBtn'))
-	
-		CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('ReportingGroupManagement/confirmToDelBtn'))
-	
-		CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('HomePage/logoutLink'))
+
+	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('HomePage/welcomeLink'))
+
+	WebUI.delay(GlobalVariable.MIN_DELAY)
+
+	'Click on Stores Link'
+	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('HomePage/storesLink'))
+	WebUI.delay(GlobalVariable.MIN_DELAY)
+
+	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('StorePage/ManageReportGroupsButtton'))
+	WebUI.delay(GlobalVariable.MED_DELAY)
+
+	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('ReportingGroupManagement/groupdummy1'))
+
+	WebUI.delay(GlobalVariable.MIN_DELAY)
+	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('ReportingGroupManagement/deleteBtn'))
+
+	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('ReportingGroupManagement/confirmToDelBtn'))
+
+	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('HomePage/logoutLink'))
 
 }
 catch(Exception e){

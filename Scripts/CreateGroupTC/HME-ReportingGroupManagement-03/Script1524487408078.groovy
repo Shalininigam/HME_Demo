@@ -30,6 +30,9 @@ boolean TCflag=true
 try{
 
 	WebUI.navigateToUrl(GlobalVariable.devPublicCloudUrl)
+	
+	WebUI.delay(GlobalVariable.LONG_DELAY)
+	WebUI.delay(GlobalVariable.LONG_DELAY)
 
 	'User login to Application'
 
