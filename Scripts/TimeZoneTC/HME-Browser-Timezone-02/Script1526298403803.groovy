@@ -34,11 +34,11 @@ try{
 
 	//Step 1: To navigate to the application login page
 
-	WebUI.navigateToUrl(GlobalVariable.cloud_UATUrl)
+	WebUI.navigateToUrl(GlobalVariable.devPublicCloudUrl)
 
 	//Step 2: To navigate to the application home page
 
-	CustomKeywords.'projectSpecific.Reusability.login'(CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","UAT_Username"),CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","UAT_Password"))
+	CustomKeywords.'projectSpecific.Reusability.login'(CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudUsername"),CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudPassword"))
 
 	WebUI.delay(GlobalVariable.MED_DELAY)
 
@@ -82,7 +82,9 @@ try{
 
 	WebDriver driver = DriverFactory.getWebDriver()
 
-	driver.findElement(By.xpath("//span[contains(text(),'"+storenumber.trim()+"')]")).click()
+	//driver.findElement(By.xpath("//span[contains(text(),'"+storenumber.trim()+"')]")).click()
+	
+	driver.findElement(By.xpath("//span[contains(text(),'22222')]")).click()
 	
 	//Step 5: To verify time measure
 	

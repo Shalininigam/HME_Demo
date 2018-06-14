@@ -19,7 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
@@ -35,11 +34,13 @@ try{
 
 	//Step 1: To navigate to the application login page
 
-	WebUI.navigateToUrl(GlobalVariable.cloud_UATUrl)
+	WebUI.navigateToUrl(GlobalVariable.devPublicCloudUrl)
+	
+	WebUI.delay(GlobalVariable.MED_DELAY)
 
 	//Step 2: To navigate to the application home page
 
-	CustomKeywords.'projectSpecific.Reusability.login'(CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","UAT_Username"),CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","UAT_Password"))
+	CustomKeywords.'projectSpecific.Reusability.login'(CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudUsername"),CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudPassword"))
 
 	WebUI.delay(GlobalVariable.MED_DELAY)
 
@@ -57,8 +58,8 @@ try{
 
 	'Click on Stores Link'
 	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('HomePage/storesLink'))
-
-	/*'Click on View/Edit link'
+/*
+	'Click on View/Edit link'
 	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('UsersPage/viewEditUsers'))
 
 	'Click on Zoom Label'
@@ -70,11 +71,14 @@ try{
 	String storeID =CustomKeywords.'uiaction.CommonUIActions.getText'(findTestObject('StorePage/storeID'))
 	String storenumber=storeID.trim()
 	println storenumber*/
-
+	
 	String storenumber=CustomKeywords.'uiaction.CommonUIActions.getText'(findTestObject('StorePage/storepage_storenumber'))
 	
 	System.out.println(" the store number is--"+storenumber.trim())
 	
+	
+	
+
 	//Step 3: To navigate to report page.
 
 	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('UsersPage/reportsLink'))
@@ -83,25 +87,28 @@ try{
 
 	WebDriver driver = DriverFactory.getWebDriver()
 
-	driver.findElement(By.xpath("//span[contains(text(),'"+storenumber.trim()+"')]")).click()
+//	driver.findElement(By.xpath("//span[contains(text(),'"+storenumber.trim()+"')]")).click()
+	
+	driver.findElement(By.xpath("//span[contains(text(),'22222')]")).click()
+	
+	WebUI.delay(GlobalVariable.MIN_DELAY)
 
 	//Step 5: To verify time measure
 
 	'Select time'
 	WebUI.click(findTestObject('ReportsPage/timeSelection'))
 
-	'Click on week option'
-	WebUI.click(findTestObject('ReportsPage/weekTimeOption'))
+	'Click on dayPart option'
+	WebUI.click(findTestObject('ReportsPage/daypartTimeOption'))
 
 	WebUI.click(findTestObject('ReportsPage/summaryReportHeading'))
 
-	'verify week is displayed in TimeSelection dropdown'
+	'verify dayPart is displayed in TimeSelection dropdown'
 
-	WebUI.verifyElementText(findTestObject('ReportsPage/weekTimeOption'),CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","weekTimeSelection"))
+	WebUI.verifyElementText(findTestObject('ReportsPage/daypartTimeOption'),CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","daypartTimeSelection"))
 
-	'verify week is displayed in criteria week selection'
-	WebUI.verifyElementText(findTestObject('ReportsPage/criteriaTimeMeasure'),CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","criteriaWeekTimeSelection"))
-
+	'verify dayPart is displayed in criteria week selection'
+	WebUI.verifyElementText(findTestObject('ReportsPage/criteriaTimeMeasureFordaypart'),CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","criteriaDaypartTimeSelection"))
 
 	//Step 6: To verify date.
 
@@ -130,7 +137,7 @@ try{
 
 	}
 
-	String data = CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","StartDate_March2")
+	String data = CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","StartDate_March3")
 	startDate="(//td[text()='"+data+"'])[1]"
 	println startDate
 	startdateEle=driver.findElement(By.xpath(startDate))
@@ -160,7 +167,7 @@ try{
 
 	}
 
-	String endDate=CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","EndDate_March2")
+	String endDate=CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","EndDate_March3")
 
 	toDate="(//td[text()='"+endDate+"'])[2]"
 	println toDate
@@ -172,7 +179,7 @@ try{
 
 	dateAttr =WebUI.getAttribute(findTestObject('ReportsPage/selectedDate1'),"value")
 
-	String fromDateValue =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","fromDate_March2")
+	String fromDateValue =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","fromDate_March3")
 	if(!dateAttr.equals(fromDateValue))
 	{
 		if(TCflag)
@@ -183,7 +190,7 @@ try{
 
 	String dateAttr =WebUI.getAttribute(findTestObject('ReportsPage/selectedDate2'),"value")
 
-	String toDateValue =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","toDate_March2")
+	String toDateValue =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","toDate_March3")
 	if(!dateAttr.equals(toDateValue))
 	{
 		if(TCflag)
@@ -192,14 +199,14 @@ try{
 		WebUI.takeScreenshot()
 	}
 
-	//Step 7: To verify the time zone for the Week report in the report section by checking Print time section.
+	//Step 7: To verify the time zone for the Day part report in the report section by checking Print time section.
 
 	'click GenerateReport button'
 	WebUI.click(findTestObject('ReportsPage/generateReport'))
 
 	WebUI.delay(GlobalVariable.LONG_DELAY)
 
-	'Print Time is displayed in EST(Local Time)'
+	'Print Time is displayed in Local Time'
 
 	String printTime =CustomKeywords.'uiaction.CommonUIActions.getText'(findTestObject('SummarizedReportPage/printTime'))
 

@@ -28,15 +28,15 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
-
 boolean TCflag=true
 try{
 
 	//Step 1: To navigate to the application login page
 
 	WebUI.navigateToUrl(GlobalVariable.devPublicCloudUrl)
-	WebUI.delay(GlobalVariable.MED_DELAY)
 
+	WebUI.delay(GlobalVariable.LONG_DELAY)
+	
 	//Step 2: To navigate to the application home page
 
 	CustomKeywords.'projectSpecific.Reusability.login'(CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudUsername"),CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudPassword"))
@@ -57,8 +57,8 @@ try{
 
 	'Click on Stores Link'
 	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('HomePage/storesLink'))
-
-	/*'Click on View/Edit link'
+/*
+	'Click on View/Edit link'
 	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('UsersPage/viewEditUsers'))
 
 	'Click on Zoom Label'
@@ -83,24 +83,26 @@ try{
 
 	WebDriver driver = DriverFactory.getWebDriver()
 
-	driver.findElement(By.xpath("//span[contains(text(),'"+storenumber.trim()+"')]")).click()
+//	driver.findElement(By.xpath("//span[contains(text(),'"+storenumber.trim()+"')]")).click()
+	driver.findElement(By.xpath("//span[contains(text(),'22222')]")).click()
+	WebUI.delay(GlobalVariable.MIN_DELAY)
 
 	//Step 5: To verify time measure
 
 	'Select time'
 	WebUI.click(findTestObject('ReportsPage/timeSelection'))
 
-	'Click on Day option'
-	WebUI.click(findTestObject('ReportsPage/dayTimeOption'))
+	'Click on week option'
+	WebUI.click(findTestObject('ReportsPage/weekTimeOption'))
 
 	WebUI.click(findTestObject('ReportsPage/summaryReportHeading'))
 
-	'verify Day is displayed in TimeSelection dropdown'
+	'verify week is displayed in TimeSelection dropdown'
 
-	WebUI.verifyElementText(findTestObject('ReportsPage/dayTimeOption'),CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","dayTimeSelection"))
+	WebUI.verifyElementText(findTestObject('ReportsPage/weekTimeOption'),CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","weekTimeSelection"))
 
-	'verify Day is displayed in criteria day selection'
-	WebUI.verifyElementText(findTestObject('ReportsPage/criteriaTimeMeasureForDay'),CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","criteriaDayTimeSelection"))
+	'verify week is displayed in criteria week selection'
+	WebUI.verifyElementText(findTestObject('ReportsPage/criteriaTimeMeasure'),CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","criteriaWeekTimeSelection"))
 
 	//Step 6: To verify date.
 
@@ -129,7 +131,7 @@ try{
 
 	}
 
-	String data = CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","EndDate")
+	String data = CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","StartDate_March2")
 	startDate="(//td[text()='"+data+"'])[1]"
 	println startDate
 	startdateEle=driver.findElement(By.xpath(startDate))
@@ -159,7 +161,7 @@ try{
 
 	}
 
-	String endDate=CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","EndDate")
+	String endDate=CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","EndDate_March2")
 
 	toDate="(//td[text()='"+endDate+"'])[2]"
 	println toDate
@@ -171,7 +173,7 @@ try{
 
 	dateAttr =WebUI.getAttribute(findTestObject('ReportsPage/selectedDate1'),"value")
 
-	String fromDateValue =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","toDate")
+	String fromDateValue =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","fromDate_March2")
 	if(!dateAttr.equals(fromDateValue))
 	{
 		if(TCflag)
@@ -182,7 +184,7 @@ try{
 
 	String dateAttr =WebUI.getAttribute(findTestObject('ReportsPage/selectedDate2'),"value")
 
-	String toDateValue =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","toDate")
+	String toDateValue =CustomKeywords.'projectSpecific.Reusability.getTestData'("ReportsPage","toDate_March2")
 	if(!dateAttr.equals(toDateValue))
 	{
 		if(TCflag)
@@ -191,14 +193,14 @@ try{
 		WebUI.takeScreenshot()
 	}
 
-	//Step 7: To verify the time zone for the Day report in the report section by checking Print time section.
+	//Step 7: To verify the time zone for the Weekly summary report in the report section by checking Print time section.
 
 	'click GenerateReport button'
 	WebUI.click(findTestObject('ReportsPage/generateReport'))
 
 	WebUI.delay(GlobalVariable.LONG_DELAY)
 
-	'Print Time is displayed in CST(Local Time)'
+	'Print Time is displayed in Local Time'
 
 	String printTime =CustomKeywords.'uiaction.CommonUIActions.getText'(findTestObject('SummarizedReportPage/printTime'))
 
@@ -217,6 +219,9 @@ try{
 		System.out.println("Print Time is not displayed the current local time ")
 		WebUI.takeScreenshot()
 	}
+	
+	WebUI.delay(GlobalVariable.MIN_DELAY)
+	
 	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('HomePage/logoutLink'))
 
 }
@@ -228,4 +233,3 @@ catch(Exception e){
 }
 
 assert TCflag==true
-

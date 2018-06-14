@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RegressionSuite,Chrome 67.0.3396.79,,2018-06-14 15:57:12,2018-06-14 16:30:52,33m - 39.711s,FAILED
+,,,,,,
+Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-02,Chrome 67.0.3396.79,To verify that public admin is able to generate weekly goal statistics report for selected groups/stores for selected duration,2018-06-14 15:57:13,2018-06-14 16:00:14,3m - 0.787s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,2018-06-14 15:57:13,2018-06-14 15:57:18,4.698s,PASSED
+Statement - TCflag = true,Chrome 67.0.3396.79,,2018-06-14 15:57:18,2018-06-14 15:57:18,0.001s,PASSED
+Statement - Try,Chrome 67.0.3396.79,,2018-06-14 15:57:18,2018-06-14 16:00:13,2m - 54.942s,PASSED
+Statement - assert TCflag == true,Chrome 67.0.3396.79,,2018-06-14 16:00:13,2018-06-14 16:00:13,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,2018-06-14 16:00:13,2018-06-14 16:00:14,0.749s,PASSED
+,,,,,,
+Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-03,Chrome 67.0.3396.79,To verify that public admin is able generate Day Goal Report when there is only 2 goal set.,2018-06-14 16:00:14,2018-06-14 16:04:43,4m - 29.353s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,2018-06-14 16:00:14,2018-06-14 16:00:17,3.314s,PASSED
+Statement - TCflag = true,Chrome 67.0.3396.79,,2018-06-14 16:00:17,2018-06-14 16:00:17,0.000s,PASSED
+Statement - Try,Chrome 67.0.3396.79,,2018-06-14 16:00:17,2018-06-14 16:04:42,4m - 25.029s,PASSED
+Statement - assert TCflag == true,Chrome 67.0.3396.79,,2018-06-14 16:04:42,2018-06-14 16:04:42,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,2018-06-14 16:04:42,2018-06-14 16:04:43,0.767s,PASSED
+,,,,,,
+Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-04,Chrome 67.0.3396.79,To verify that public admin is able generate Day Goal Report and also to verify the colour of each goal is displayed based on display settings,2018-06-14 16:04:43,2018-06-14 16:07:15,2m - 31.353s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,2018-06-14 16:04:43,2018-06-14 16:04:50,7.146s,PASSED
+Statement - TCflag = true,Chrome 67.0.3396.79,,2018-06-14 16:04:51,2018-06-14 16:04:51,0.000s,PASSED
+Statement - Try,Chrome 67.0.3396.79,,2018-06-14 16:04:51,2018-06-14 16:07:14,2m - 23.258s,PASSED
+Statement - assert TCflag == true,Chrome 67.0.3396.79,,2018-06-14 16:07:14,2018-06-14 16:07:14,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,2018-06-14 16:07:14,2018-06-14 16:07:15,0.734s,PASSED
+,,,,,,
+Test Cases/MasqueradeTC/HME-Masquerade-05,Chrome 67.0.3396.79,To verify that public admin can only edit the user roles as store admin,2018-06-14 16:07:15,2018-06-14 16:10:01,2m - 46.011s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,2018-06-14 16:07:15,2018-06-14 16:07:19,4.290s,PASSED
+Statement - TCflag = true,Chrome 67.0.3396.79,,2018-06-14 16:07:19,2018-06-14 16:07:19,0.000s,PASSED
+Statement - Try,Chrome 67.0.3396.79,,2018-06-14 16:07:19,2018-06-14 16:10:00,2m - 40.714s,FAILED
+Statement - Catch (Exception e),Chrome 67.0.3396.79,,2018-06-14 16:10:00,2018-06-14 16:10:00,0.008s,PASSED
+Statement - assert TCflag == true,Chrome 67.0.3396.79,,2018-06-14 16:10:00,2018-06-14 16:10:00,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,2018-06-14 16:10:00,2018-06-14 16:10:01,0.810s,PASSED
+,,,,,,
+Test Cases/MultilingualTC/HME-JWT-04,Chrome 67.0.3396.79,To verify that session time out is maintained properly across the application,2018-06-14 16:10:01,2018-06-14 16:30:52,20m - 51.567s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 67.0.3396.79,,2018-06-14 16:10:01,2018-06-14 16:10:04,3.298s,PASSED
+Statement - TCflag = true,Chrome 67.0.3396.79,,2018-06-14 16:10:04,2018-06-14 16:10:04,0.001s,PASSED
+Statement - Try,Chrome 67.0.3396.79,,2018-06-14 16:10:04,2018-06-14 16:30:51,20m - 47.338s,PASSED
+Statement - assert TCflag == true,Chrome 67.0.3396.79,,2018-06-14 16:30:51,2018-06-14 16:30:51,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 67.0.3396.79,,2018-06-14 16:30:51,2018-06-14 16:30:52,0.803s,PASSED
