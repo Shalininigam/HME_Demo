@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//table[@class='sys_table_widget sys_table']//tr[2]/td[5])[1]</value>
+         <value>(//a[text()='View Details'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
