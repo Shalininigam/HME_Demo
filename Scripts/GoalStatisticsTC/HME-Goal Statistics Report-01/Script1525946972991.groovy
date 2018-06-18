@@ -108,7 +108,7 @@ try{
 
 	WebDriver driver = DriverFactory.getWebDriver()
 
-	List<WebElement> grouplist = driver.findElements(By.xpath("//ul[@class='unlinked-grouplist']/li"))
+	/*List<WebElement> grouplist = driver.findElements(By.xpath("//ul[@class='unlinked-grouplist']/li"))
 	WebUI.delay(GlobalVariable.MED_DELAY)
 
 	for(int i=0; i<grouplist.size();i++){
@@ -121,7 +121,10 @@ try{
 			driver.findElement(By.xpath("//button[contains(text(),'>')]")).click()
 			break;
 		}
-	}
+	}*/
+	
+	driver.findElement(By.xpath("//div[@class='col-xs-12 new-groups']/ul/li[text()='22222-vijay']/label")).click()
+	driver.findElement(By.xpath("//button[contains(text(),'>')]")).click()
 
 	WebUI.delay(GlobalVariable.MED_DELAY)
 
@@ -347,6 +350,8 @@ try{
 
 	//Step 17: To verify admin is able to navigate to Goal Statistics report screen.
 	WebUI.click(findTestObject('ReportsPage/report_submit'))
+	
+	WebUI.delay(GlobalVariable.LONG_DELAY)
 
 	String summHeading =CustomKeywords.'projectSpecific.Reusability.getTestData'("SummarizedReportPage","Goalstatestics")
 	WebUI.delay(GlobalVariable.MED_DELAY)

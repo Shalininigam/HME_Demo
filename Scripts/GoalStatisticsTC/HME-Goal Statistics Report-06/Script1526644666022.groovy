@@ -86,7 +86,7 @@ try{
 
 	List<WebElement> storesLabel = driver.findElements(By.xpath(findTestData('OR_file').getValue(2, 10)))
 	ArrayList<String> groupStoresList=new ArrayList<String>()
-
+/*
 	System.out.println(storesLabel.size())
 	int size=storesLabel.size()
 	int index=0;
@@ -101,7 +101,11 @@ try{
 			break;
 
 		}
-	}
+	}*/
+	
+	driver.findElement(By.xpath("//div[@class='col-xs-12 new-groups']/ul/li[text()='22222-vijay']/label")).click()
+	driver.findElement(By.xpath("//button[contains(text(),'>')]")).click()
+	
 	WebUI.delay(GlobalVariable.MED_DELAY)
 
 	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('ReportingGroupManagement/secondSelectAllCB'))

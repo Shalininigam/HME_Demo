@@ -34,12 +34,12 @@ try{
 
 	CustomKeywords.'projectSpecific.Reusability.login'(CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudUsername"),CustomKeywords.'projectSpecific.Reusability.getTestData'("HomePage","cloudPassword"))
 
-	WebUI.delay(GlobalVariable.LONG_DELAY)
+	WebUI.delay(GlobalVariable.MED_DELAY)
 	//Step1 : To verify that user is able to select Groups
 
 	CustomKeywords.'uiaction.CommonUIActions.click'(findTestObject('UsersPage/reportsLink'))
 	WebDriver driver = DriverFactory.getWebDriver()
-	WebUI.delay(GlobalVariable.LONG_DELAY)
+	WebUI.delay(GlobalVariable.MED_DELAY)
 	String xpath="//span[contains(text(),'00000121')]"
 
 	driver.findElement(By.xpath(xpath)).click()

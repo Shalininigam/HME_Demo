@@ -1,0 +1,2144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegressionSuite" time="2285" tests="4" failures="1" errors="0">
+   <testsuite name="RegressionSuite" tests="4" failures="1" errors="0" time="2285" timestamp="2018-06-18 16:20:44" hostname="shalinin - NIBC2129.nousinfo.com" id="Test Suites/RegressionSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\shalinin\\Katalon Studio\\HME_Scripts\\Reports\\RegressionSuite\\20180618_162042"/>
+         <property name="logFiles" value="C:\\Users\\shalinin\\Katalon Studio\\HME_Scripts\\Reports\\RegressionSuite\\20180618_162042\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="shalinin - NIBC2129.nousinfo.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="192.168.24.174"/>
+         <property name="sessionId" value="9ee43ccc838a2688677e90efff7522b0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-02" classname="Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-02" status="PASSED">
+         <system-out><![CDATA[2018-06-18 16:20:44 - [TEST_CASE][PASSED] - Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-02: Browser is closed
+
+2018-06-18 16:20:45 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:20:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-18 16:20:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-18 16:20:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-18 16:20:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-18 16:20:49 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.deleteAllCookies: uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:20:49 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-06-18 16:20:49 - [MESSAGE][PASSED] - uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:20:49 - [TEST_STEP][PASSED] - Statement - TCflag = true: null
+
+2018-06-18 16:20:49 - [TEST_STEP][PASSED] - Statement - Try: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:20:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://hme-dev-public-cloud-app.azurewebsites.net/' successfully
+
+2018-06-18 16:20:52 - [MESSAGE][PASSED] - Navigate to 'https://hme-dev-public-cloud-app.azurewebsites.net/' successfully
+
+2018-06-18 16:20:52 - [TEST_STEP][PASSED] - projectSpecific.Reusability.login: projectSpecific.Reusability.login is PASSED
+
+2018-06-18 16:20:53 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:20:53 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:20:53 - [MESSAGE][PASSED] - Text 'selvendrank@nousinfo.com' is set on object 'Object Repository/LoginPage/Username'
+
+2018-06-18 16:20:53 - [MESSAGE][PASSED] - Text 'nous;123' is set on object 'Object Repository/LoginPage/Password'
+
+2018-06-18 16:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login' is clicked on
+
+2018-06-18 16:20:53 - [MESSAGE][PASSED] - projectSpecific.Reusability.login is PASSED
+
+2018-06-18 16:20:53 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:21:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:21:03 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:21:40 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:21:40 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-06-18 16:21:40 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:21:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:21:50 - [TEST_STEP][PASSED] - Statement - xpath = "//span[contains(text(),'00000121')]": null
+
+2018-06-18 16:21:50 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.xpath(xpath)).click(): null
+
+2018-06-18 16:21:50 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:22:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:22:00 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:22:00 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:22:00 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:22:00 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:22:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/fromDateSelector' is clicked on
+
+2018-06-18 16:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/fromDateSelector' is clicked on
+
+2018-06-18 16:22:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:22:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'June 2018'
+
+2018-06-18 16:22:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'June 2018'
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - Statement - monthTextValue = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "Month"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:05 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - Statement - If (!(monthTextValue.equals(month))): null
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - Statement - While (!(monthTextValue.equals(month))): null
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'May 2018'
+
+2018-06-18 16:22:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'May 2018'
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:22:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'April 2018'
+
+2018-06-18 16:22:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'April 2018'
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'March 2018'
+
+2018-06-18 16:22:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'March 2018'
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "StartDate"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:06 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - startDate = "(//div[@class='rdtPicker']/div/table/tbody/tr/td[text()='" + data + "'])[1]": null
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - println(startDate): null
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - startdateEle = driver.findElement(org.openqa.selenium.By.xpath(startDate)): null
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - Statement - startdateEle.click(): null
+
+2018-06-18 16:22:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/toDateSelector' is clicked on
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/toDateSelector' is clicked on
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'June 2018'
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'June 2018'
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - monthTextValue1 = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "Month"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - If (!(monthTextValue1.equals(month))): null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - While (!(monthTextValue1.equals(month))): null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'May 2018'
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'May 2018'
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'April 2018'
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'April 2018'
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'March 2018'
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'March 2018'
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - endDate = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "EndDate"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:11 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - toDate = "(//div[@class='rdt date-time rdtOpen']/div[@class='rdtPicker']/div/table/tbody/tr/td[text()='" + endDate + "'])[1]": null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - println(toDate): null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - toDateEle = driver.findElement(org.openqa.selenium.By.xpath(toDate)): null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - Statement - toDateEle.click(): null
+
+2018-06-18 16:22:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:22:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:22:16 - [TEST_STEP][PASSED] - Statement - dateAttr = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/selectedDate1), "value"): Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate1' is: '03/01/2018'
+
+2018-06-18 16:22:16 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate1' is: '03/01/2018'
+
+2018-06-18 16:22:16 - [TEST_STEP][PASSED] - Statement - fromDateValue = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "fromDate"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:16 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:16 - [TEST_STEP][PASSED] - Statement - If (!(dateAttr.equals(fromDateValue))): null
+
+2018-06-18 16:22:16 - [TEST_STEP][PASSED] - Statement - dateAttr = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/selectedDate2), "value"): Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate2' is: '03/14/2018'
+
+2018-06-18 16:22:16 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate2' is: '03/14/2018'
+
+2018-06-18 16:22:16 - [TEST_STEP][PASSED] - Statement - toDateValue = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "toDate"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:17 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:17 - [TEST_STEP][PASSED] - Statement - If (!(dateAttr.equals(toDateValue))): null
+
+2018-06-18 16:22:17 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:22:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:22:27 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:22:27 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:22:27 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-06-18 16:22:27 - [TEST_STEP][PASSED] - Statement - templateHeading = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "templateHeading"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:27 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:27 - [TEST_STEP][PASSED] - Statement - existingTemplatexpath = "//div[text()='" + templateHeading + "']/../div[2]": null
+
+2018-06-18 16:22:27 - [TEST_STEP][PASSED] - Statement - existingTemplatedeleteLink = driver.findElement(org.openqa.selenium.By.xpath(existingTemplatexpath)): null
+
+2018-06-18 16:22:27 - [TEST_STEP][PASSED] - Statement - If (existingTemplatedeleteLink.isDisplayed() == true): null
+
+2018-06-18 16:22:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/saveTemplateChkBox' is clicked on
+
+2018-06-18 16:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/saveTemplateChkBox' is clicked on
+
+2018-06-18 16:22:27 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/ReportsPage/saveTemplateChkBox' is checked
+
+2018-06-18 16:22:27 - [MESSAGE][PASSED] - Object 'Object Repository/ReportsPage/saveTemplateChkBox' is checked
+
+2018-06-18 16:22:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/templateName' is clicked on
+
+2018-06-18 16:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/templateName' is clicked on
+
+2018-06-18 16:22:27 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.enter: uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:22:27 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:28 - [MESSAGE][PASSED] - uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:22:28 - [TEST_STEP][PASSED] - Statement - s1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/templateName), "value"): Attribute 'value' of object 'Object Repository/ReportsPage/templateName' is: 'March Weekly Report'
+
+2018-06-18 16:22:28 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ReportsPage/templateName' is: 'March Weekly Report'
+
+2018-06-18 16:22:28 - [TEST_STEP][PASSED] - Statement - execFlag = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(s1, CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "templateHeading"), false): Actual text 'March Weekly Report' and expected text 'March Weekly Report' are matched 
+
+2018-06-18 16:22:28 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:28 - [MESSAGE][PASSED] - Actual text 'March Weekly Report' and expected text 'March Weekly Report' are matched 
+
+2018-06-18 16:22:28 - [TEST_STEP][PASSED] - Statement - If (!(execFlag)): null
+
+2018-06-18 16:22:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:22:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:22:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/generateReport' is clicked on
+
+2018-06-18 16:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/generateReport' is clicked on
+
+2018-06-18 16:22:33 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-06-18 16:22:48 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - goalStatisticsList = driver.findElements(org.openqa.selenium.By.xpath(com.kms.katalon.core.testdata.TestDataFactory.findTestData(OR_file).getValue(2, 27))): Reading excel file with source file 'C:\Users\shalinin\Katalon Studio\HME_Scripts\Data Files\HME_OR.xlsx' and sheet name 'Sheet1'
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - groupSize = goalStatisticsList.size(): null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - actualgroupList = new java.util.ArrayList(): null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < groupSize, (i++)]): null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - goalStatisticsdata = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "averageTimeHeader"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:48 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - goalStatisticsdataArray = goalStatisticsdata.split(","): null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - goalStatisticsdataList = new java.util.ArrayList(java.util.Arrays.asList(goalStatisticsdataArray)): null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - goalStatisticsdataList.unique(): null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - out.println(goalStatisticsdataList): null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - matchFound = true: null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < actualgroupList.size(), (j++)]): null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - If (matchFound): null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - Statement - out.println("GoalStatistics Columns are verified"): null
+
+2018-06-18 16:22:48 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:22:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - goalList = driver.findElements(org.openqa.selenium.By.xpath(com.kms.katalon.core.testdata.TestDataFactory.findTestData(OR_file).getValue(2, 31))): Reading excel file with source file 'C:\Users\shalinin\Katalon Studio\HME_Scripts\Data Files\HME_OR.xlsx' and sheet name 'Sheet1'
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - groupSize = goalList.size(): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - actualgroupList = new java.util.ArrayList(): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < groupSize, (i++)]): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalList.get(i).getText()): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalList.get(i).getText()): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalList.get(i).getText()): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalList.get(i).getText()): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalList.get(i).getText()): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - goaldata = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goals"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:58 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - goaldataArray = goaldata.split(","): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - goaldataList = new java.util.ArrayList(java.util.Arrays.asList(goaldataArray)): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - goaldataList.unique(): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - out.println(goaldataList): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - matchFound = true: null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < actualgroupList.size(), (j++)]): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goaldataList.get(j).toString().trim(), false): Actual text '< Goal A (min:sec)' and expected text '< Goal A (min:sec)' are matched 
+
+2018-06-18 16:22:58 - [MESSAGE][PASSED] - Actual text '< Goal A (min:sec)' and expected text '< Goal A (min:sec)' are matched 
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goaldataList.get(j).toString().trim(), false): Actual text '< Goal B (min:sec)' and expected text '< Goal B (min:sec)' are matched 
+
+2018-06-18 16:22:58 - [MESSAGE][PASSED] - Actual text '< Goal B (min:sec)' and expected text '< Goal B (min:sec)' are matched 
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goaldataList.get(j).toString().trim(), false): Actual text '< Goal C (min:sec)' and expected text '< Goal C (min:sec)' are matched 
+
+2018-06-18 16:22:58 - [MESSAGE][PASSED] - Actual text '< Goal C (min:sec)' and expected text '< Goal C (min:sec)' are matched 
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goaldataList.get(j).toString().trim(), false): Actual text '< Goal D (min:sec)' and expected text '< Goal D (min:sec)' are matched 
+
+2018-06-18 16:22:58 - [MESSAGE][PASSED] - Actual text '< Goal D (min:sec)' and expected text '< Goal D (min:sec)' are matched 
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goaldataList.get(j).toString().trim(), false): Actual text '> Goal D (min:sec)' and expected text '> Goal D (min:sec)' are matched 
+
+2018-06-18 16:22:58 - [MESSAGE][PASSED] - Actual text '> Goal D (min:sec)' and expected text '> Goal D (min:sec)' are matched 
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - If (matchFound): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - Statement - out.println("Goal Columns are verified"): null
+
+2018-06-18 16:22:58 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:23:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - goalAText = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalA"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:08 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - goalAText1 = CustomKeywords.uiaction.CommonUIActions.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SummarizedReportPage/goalAText)): uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:23:08 - [MESSAGE][PASSED] - uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - confirm = goalAText1.trim().contains(goalAText.trim()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - If (confirm): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - out.println("Goal A Report is verified"): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - goalAdata = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalAText"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:08 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - println(goalAdata): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - goalAdataArray = goalAdata.split(","): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - goalAdataList = new java.util.ArrayList(java.util.Arrays.asList(goalAdataArray)): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - out.println(goalAdataList): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - matchFound = true: null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - goaldataList2 = driver.findElements(org.openqa.selenium.By.xpath(com.kms.katalon.core.testdata.TestDataFactory.findTestData(OR_file).getValue(2, 32))): Reading excel file with source file 'C:\Users\shalinin\Katalon Studio\HME_Scripts\Data Files\HME_OR.xlsx' and sheet name 'Sheet1'
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - groupSize = goaldataList2.size(): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList = new java.util.ArrayList(): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < groupSize, (i++)]): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:08 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goaldataList2.get(i).getText()): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - For ([j = 1, j <= 5, (j++)]): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalAdataList.get(j - 1).toString().trim(), false): Actual text '0:30' and expected text '0:30' are matched 
+
+2018-06-18 16:23:09 - [MESSAGE][PASSED] - Actual text '0:30' and expected text '0:30' are matched 
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalAdataList.get(j - 1).toString().trim(), false): Actual text '0:5' and expected text '0:5' are matched 
+
+2018-06-18 16:23:09 - [MESSAGE][PASSED] - Actual text '0:5' and expected text '0:5' are matched 
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalAdataList.get(j - 1).toString().trim(), false): Actual text '0:30' and expected text '0:30' are matched 
+
+2018-06-18 16:23:09 - [MESSAGE][PASSED] - Actual text '0:30' and expected text '0:30' are matched 
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalAdataList.get(j - 1).toString().trim(), false): Actual text '0:30' and expected text '0:30' are matched 
+
+2018-06-18 16:23:09 - [MESSAGE][PASSED] - Actual text '0:30' and expected text '0:30' are matched 
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalAdataList.get(j - 1).toString().trim(), false): Actual text '1:30' and expected text '1:30' are matched 
+
+2018-06-18 16:23:09 - [MESSAGE][PASSED] - Actual text '1:30' and expected text '1:30' are matched 
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - If (matchFound): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - Statement - out.println("Goal A Columns are verified"): null
+
+2018-06-18 16:23:09 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:23:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - goalBText = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalB"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:19 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - goalBText1 = CustomKeywords.uiaction.CommonUIActions.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SummarizedReportPage/goalBText)): uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:23:19 - [MESSAGE][PASSED] - uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - confirm = goalBText1.trim().contains(goalBText.trim()): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - If (confirm): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - out.println("Goal B Report is verified"): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - goalBdata = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalBText"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:19 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - println(goalBdata): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - goalBdataArray = goalBdata.split(","): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - goalBdataList = new java.util.ArrayList(java.util.Arrays.asList(goalBdataArray)): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - out.println(goalBdataList): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - matchFound = true: null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - i = 0: null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - For ([j = 7, j <= 11, (j++)]): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalBdataList.get(i).toString().trim(), false): Actual text '1:00' and expected text '1:00' are matched 
+
+2018-06-18 16:23:19 - [MESSAGE][PASSED] - Actual text '1:00' and expected text '1:00' are matched 
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalBdataList.get(i).toString().trim(), false): Actual text '0:10' and expected text '0:10' are matched 
+
+2018-06-18 16:23:19 - [MESSAGE][PASSED] - Actual text '0:10' and expected text '0:10' are matched 
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalBdataList.get(i).toString().trim(), false): Actual text '1:00' and expected text '1:00' are matched 
+
+2018-06-18 16:23:19 - [MESSAGE][PASSED] - Actual text '1:00' and expected text '1:00' are matched 
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalBdataList.get(i).toString().trim(), false): Actual text '0:30' and expected text '0:30' are matched 
+
+2018-06-18 16:23:19 - [MESSAGE][PASSED] - Actual text '0:30' and expected text '0:30' are matched 
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalBdataList.get(i).toString().trim(), false): Actual text '2:30' and expected text '2:30' are matched 
+
+2018-06-18 16:23:19 - [MESSAGE][PASSED] - Actual text '2:30' and expected text '2:30' are matched 
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - If (matchFound): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - Statement - out.println("Goal B Columns are verified"): null
+
+2018-06-18 16:23:19 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:23:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - goalCText = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalC"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:29 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - goalCText1 = CustomKeywords.uiaction.CommonUIActions.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SummarizedReportPage/goalCText)): uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:23:29 - [MESSAGE][PASSED] - uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - confirm = goalCText1.trim().contains(goalCText.trim()): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - If (confirm): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - out.println("Goal C Report is verified"): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - goalCdata = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalCText"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:29 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - println(goalCdata): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - goalCdataArray = goalCdata.split(","): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - goalCdataList = new java.util.ArrayList(java.util.Arrays.asList(goalCdataArray)): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - out.println(goalCdataList): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - matchFound = true: null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - i = 0: null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - For ([j = 13, j <= 17, (j++)]): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalCdataList.get(i).toString().trim(), false): Actual text '1:30' and expected text '1:30' are matched 
+
+2018-06-18 16:23:29 - [MESSAGE][PASSED] - Actual text '1:30' and expected text '1:30' are matched 
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalCdataList.get(i).toString().trim(), false): Actual text '0:15' and expected text '0:15' are matched 
+
+2018-06-18 16:23:29 - [MESSAGE][PASSED] - Actual text '0:15' and expected text '0:15' are matched 
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalCdataList.get(i).toString().trim(), false): Actual text '1:30' and expected text '1:30' are matched 
+
+2018-06-18 16:23:29 - [MESSAGE][PASSED] - Actual text '1:30' and expected text '1:30' are matched 
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalCdataList.get(i).toString().trim(), false): Actual text '2:00' and expected text '2:00' are matched 
+
+2018-06-18 16:23:29 - [MESSAGE][PASSED] - Actual text '2:00' and expected text '2:00' are matched 
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalCdataList.get(i).toString().trim(), false): Actual text '5:00' and expected text '5:00' are matched 
+
+2018-06-18 16:23:29 - [MESSAGE][PASSED] - Actual text '5:00' and expected text '5:00' are matched 
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - If (matchFound): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - Statement - out.println("Goal C Columns are verified"): null
+
+2018-06-18 16:23:29 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:23:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - goalDText = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalD"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:39 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - goalDText1 = CustomKeywords.uiaction.CommonUIActions.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SummarizedReportPage/goalDText)): uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:23:39 - [MESSAGE][PASSED] - uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - confirm = goalDText1.trim().contains(goalDText.trim()): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - If (confirm): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - out.println("Goal D Report is verified"): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - goalDdata = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalDText"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:39 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - println(goalDdata): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - goalDdataArray = goalDdata.split(","): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - goalDdataList = new java.util.ArrayList(java.util.Arrays.asList(goalDdataArray)): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - out.println(goalDdataList): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - matchFound = true: null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - i = 0: null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - For ([j = 19, j <= 23, (j++)]): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalDdataList.get(i).toString().trim(), false): Actual text '2:00' and expected text '2:00' are matched 
+
+2018-06-18 16:23:39 - [MESSAGE][PASSED] - Actual text '2:00' and expected text '2:00' are matched 
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalDdataList.get(i).toString().trim(), false): Actual text '0:20' and expected text '0:20' are matched 
+
+2018-06-18 16:23:39 - [MESSAGE][PASSED] - Actual text '0:20' and expected text '0:20' are matched 
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalDdataList.get(i).toString().trim(), false): Actual text '2:00' and expected text '2:00' are matched 
+
+2018-06-18 16:23:39 - [MESSAGE][PASSED] - Actual text '2:00' and expected text '2:00' are matched 
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalDdataList.get(i).toString().trim(), false): Actual text '3:00' and expected text '3:00' are matched 
+
+2018-06-18 16:23:39 - [MESSAGE][PASSED] - Actual text '3:00' and expected text '3:00' are matched 
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalDdataList.get(i).toString().trim(), false): Actual text '7:00' and expected text '7:00' are matched 
+
+2018-06-18 16:23:39 - [MESSAGE][PASSED] - Actual text '7:00' and expected text '7:00' are matched 
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - If (matchFound): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - Statement - out.println("Goal D Columns are verified"): null
+
+2018-06-18 16:23:39 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:23:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:23:49 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:23:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:23:59 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:24:08 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:24:08 - [TEST_STEP][PASSED] - Statement - assert TCflag == true: null
+
+2018-06-18 16:24:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-06-18 16:24:08 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-18 16:24:08 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-06-18 16:24:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-18 16:24:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-03" classname="Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-03" status="PASSED">
+         <system-out><![CDATA[2018-06-18 16:24:09 - [TEST_CASE][PASSED] - Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-03: Browser is closed
+
+2018-06-18 16:24:09 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:24:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-18 16:24:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-18 16:24:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-18 16:24:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-18 16:24:12 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.deleteAllCookies: uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:24:12 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-06-18 16:24:12 - [MESSAGE][PASSED] - uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:24:13 - [TEST_STEP][PASSED] - Statement - TCflag = true: null
+
+2018-06-18 16:24:13 - [TEST_STEP][PASSED] - Statement - Try: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:24:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://hme-dev-public-cloud-app.azurewebsites.net/' successfully
+
+2018-06-18 16:24:16 - [MESSAGE][PASSED] - Navigate to 'https://hme-dev-public-cloud-app.azurewebsites.net/' successfully
+
+2018-06-18 16:24:16 - [TEST_STEP][PASSED] - projectSpecific.Reusability.login: projectSpecific.Reusability.login is PASSED
+
+2018-06-18 16:24:16 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:24:16 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:24:16 - [MESSAGE][PASSED] - Text 'selvendrank@nousinfo.com' is set on object 'Object Repository/LoginPage/Username'
+
+2018-06-18 16:24:16 - [MESSAGE][PASSED] - Text 'nous;123' is set on object 'Object Repository/LoginPage/Password'
+
+2018-06-18 16:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login' is clicked on
+
+2018-06-18 16:24:16 - [MESSAGE][PASSED] - projectSpecific.Reusability.login is PASSED
+
+2018-06-18 16:24:16 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-06-18 16:24:31 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-06-18 16:24:31 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:24:59 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:24:59 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-06-18 16:24:59 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-06-18 16:25:14 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-06-18 16:25:14 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:25:37 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:25:37 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:04 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:04 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:04 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:04 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:04 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:04 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.enter: uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:26:04 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:26:05 - [MESSAGE][PASSED] - uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:26:05 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.enter: uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:26:05 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:26:05 - [MESSAGE][PASSED] - uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:26:05 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:26:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:26:15 - [TEST_STEP][PASSED] - Statement - groupmain = CustomKeywords.projectSpecific.Reusability.getTestData("ReportingGroupManagementPage", "Summarygrp"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:26:15 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:26:15 - [TEST_STEP][PASSED] - Statement - grouplist = driver.findElements(org.openqa.selenium.By.xpath("//ul[@class='unlinked-grouplist']/li")): null
+
+2018-06-18 16:26:15 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:26:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < grouplist.size(), (i++)]): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - println(grouplist.get(i).getText()): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - If (grouplist.get(i).getText().contains("0000")): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.xpath("(//ul[@class='unlinked-grouplist']/li/label)[" + i + 1 + "]")).click(): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.xpath("//button[contains(text(),'>')]")).click(): null
+
+2018-06-18 16:26:25 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:26:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:26:35 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:35 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:35 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:36 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:36 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:26:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:26:46 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:46 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:26:46 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:26:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:26:56 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.xpath("//span[contains(text(),'" + groupmain + "')]/../../../../span[2]")).click(): null
+
+2018-06-18 16:26:56 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:27:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:27:06 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:27:06 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:27:06 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:27:06 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:27:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/fromDateSelector' is clicked on
+
+2018-06-18 16:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/fromDateSelector' is clicked on
+
+2018-06-18 16:27:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:27:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'June 2018'
+
+2018-06-18 16:27:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'June 2018'
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - monthTextValue = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "Month"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:11 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - If (!(monthTextValue.equals(month))): null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - While (!(monthTextValue.equals(month))): null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'May 2018'
+
+2018-06-18 16:27:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'May 2018'
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'April 2018'
+
+2018-06-18 16:27:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'April 2018'
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'March 2018'
+
+2018-06-18 16:27:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'March 2018'
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "StartDate"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:11 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - startDate = "(//div[@class='rdtPicker']/div/table/tbody/tr/td[text()='" + data + "'])[1]": null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - println(startDate): null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - startdateEle = driver.findElement(org.openqa.selenium.By.xpath(startDate)): null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - Statement - startdateEle.click(): null
+
+2018-06-18 16:27:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:27:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:27:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/toDateSelector' is clicked on
+
+2018-06-18 16:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/toDateSelector' is clicked on
+
+2018-06-18 16:27:16 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'June 2018'
+
+2018-06-18 16:27:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'June 2018'
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - monthTextValue1 = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "Month"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:17 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - If (!(monthTextValue1.equals(month))): null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - While (!(monthTextValue1.equals(month))): null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'May 2018'
+
+2018-06-18 16:27:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'May 2018'
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'April 2018'
+
+2018-06-18 16:27:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'April 2018'
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'March 2018'
+
+2018-06-18 16:27:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'March 2018'
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - endDate = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "startdate_TC8"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:17 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - toDate = "(//div[@class='rdt date-time rdtOpen']/div[@class='rdtPicker']/div/table/tbody/tr/td[text()='" + endDate + "'])[1]": null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - println(toDate): null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - toDateEle = driver.findElement(org.openqa.selenium.By.xpath(toDate)): null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - Statement - toDateEle.click(): null
+
+2018-06-18 16:27:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:27:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:27:22 - [TEST_STEP][PASSED] - Statement - dateAttr = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/selectedDate1), "value"): Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate1' is: '03/01/2018'
+
+2018-06-18 16:27:22 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate1' is: '03/01/2018'
+
+2018-06-18 16:27:22 - [TEST_STEP][PASSED] - Statement - fromDateValue = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "fromDate"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:22 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:22 - [TEST_STEP][PASSED] - Statement - If (!(dateAttr.equals(fromDateValue))): null
+
+2018-06-18 16:27:22 - [TEST_STEP][PASSED] - Statement - dateAttr = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/selectedDate2), "value"): Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate2' is: '03/07/2018'
+
+2018-06-18 16:27:22 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate2' is: '03/07/2018'
+
+2018-06-18 16:27:22 - [TEST_STEP][PASSED] - Statement - toDateValue = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "Fromdate_TC8"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:22 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:22 - [TEST_STEP][PASSED] - Statement - If (!(dateAttr.equals(toDateValue))): null
+
+2018-06-18 16:27:22 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:27:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:27:32 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:27:32 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:27:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/generateReport' is clicked on
+
+2018-06-18 16:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/generateReport' is clicked on
+
+2018-06-18 16:27:32 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-06-18 16:27:47 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - goalStatisticsList = driver.findElements(org.openqa.selenium.By.xpath(com.kms.katalon.core.testdata.TestDataFactory.findTestData(OR_file).getValue(2, 28))): Reading excel file with source file 'C:\Users\shalinin\Katalon Studio\HME_Scripts\Data Files\HME_OR.xlsx' and sheet name 'Sheet1'
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - groupSize = goalStatisticsList.size(): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - actualgroupList = new java.util.ArrayList(): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < groupSize, (i++)]): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalStatisticsList.get(i).getText()): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalStatisticsList.get(i).getText()): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalStatisticsList.get(i).getText()): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalStatisticsList.get(i).getText()): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalStatisticsList.get(i).getText()): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalStatisticsList.get(i).getText()): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - actualgroupList.add(i, goalStatisticsList.get(i).getText()): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - goalStatisticsdata = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalReportHeader"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:47 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - goalStatisticsdataArray = goalStatisticsdata.split(","): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - goalStatisticsdataList = new java.util.ArrayList(java.util.Arrays.asList(goalStatisticsdataArray)): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - goalStatisticsdataList.unique(): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - out.println(goalStatisticsdataList): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - matchFound = true: null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - For ([j = 0, j < actualgroupList.size(), (j++)]): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalStatisticsdataList.get(j).toString().trim(), false): Actual text 'Day' and expected text 'Day' are matched 
+
+2018-06-18 16:27:47 - [MESSAGE][PASSED] - Actual text 'Day' and expected text 'Day' are matched 
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalStatisticsdataList.get(j).toString().trim(), false): Actual text 'Menu Board' and expected text 'Menu Board' are matched 
+
+2018-06-18 16:27:47 - [MESSAGE][PASSED] - Actual text 'Menu Board' and expected text 'Menu Board' are matched 
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalStatisticsdataList.get(j).toString().trim(), false): Actual text 'Greet' and expected text 'Greet' are matched 
+
+2018-06-18 16:27:47 - [MESSAGE][PASSED] - Actual text 'Greet' and expected text 'Greet' are matched 
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalStatisticsdataList.get(j).toString().trim(), false): Actual text 'Service' and expected text 'Service' are matched 
+
+2018-06-18 16:27:47 - [MESSAGE][PASSED] - Actual text 'Service' and expected text 'Service' are matched 
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalStatisticsdataList.get(j).toString().trim(), false): Actual text 'Lane Queue' and expected text 'Lane Queue' are matched 
+
+2018-06-18 16:27:47 - [MESSAGE][PASSED] - Actual text 'Lane Queue' and expected text 'Lane Queue' are matched 
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalStatisticsdataList.get(j).toString().trim(), false): Actual text 'Lane Total' and expected text 'Lane Total' are matched 
+
+2018-06-18 16:27:47 - [MESSAGE][PASSED] - Actual text 'Lane Total' and expected text 'Lane Total' are matched 
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - matchFound = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(actualgroupList.get(j).toString().trim(), goalStatisticsdataList.get(j).toString().trim(), false): Actual text 'Total Cars' and expected text 'Total Cars' are matched 
+
+2018-06-18 16:27:47 - [MESSAGE][PASSED] - Actual text 'Total Cars' and expected text 'Total Cars' are matched 
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - If (!(matchFound)): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - If (matchFound): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - Statement - out.println("GoalStatistics Columns are verified"): null
+
+2018-06-18 16:27:47 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:27:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - goalAText = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalA"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:57 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - goalAText1 = CustomKeywords.uiaction.CommonUIActions.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SummarizedReportPage/goalAText)): uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:27:57 - [MESSAGE][PASSED] - uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - confirm = goalAText1.trim().contains(goalAText.trim()): null
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - If (confirm): null
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - out.println("Goal A Report is verified"): null
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - goalAdata = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalAText"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:57 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - println(goalAdata): null
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - goalStatisticsList1 = driver.findElements(org.openqa.selenium.By.xpath(com.kms.katalon.core.testdata.TestDataFactory.findTestData(OR_file).getValue(2, 29))): Reading excel file with source file 'C:\Users\shalinin\Katalon Studio\HME_Scripts\Data Files\HME_OR.xlsx' and sheet name 'Sheet1'
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - For ([k = 1, k < size, (k++)]): null
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - If (goalAdata.contains(goalStatisticsList1.get(k).getText())): null
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - out.println("Goal A Columns are verified"): null
+
+2018-06-18 16:27:57 - [TEST_STEP][PASSED] - Statement - If (goalAdata.contains(goalStatisticsList1.get(k).getText())): null
+
+2018-06-18 16:27:58 - [TEST_STEP][PASSED] - Statement - out.println("Goal A Columns are verified"): null
+
+2018-06-18 16:27:58 - [TEST_STEP][PASSED] - Statement - If (goalAdata.contains(goalStatisticsList1.get(k).getText())): null
+
+2018-06-18 16:27:58 - [TEST_STEP][PASSED] - Statement - out.println("Goal A Columns are verified"): null
+
+2018-06-18 16:27:58 - [TEST_STEP][PASSED] - Statement - If (goalAdata.contains(goalStatisticsList1.get(k).getText())): null
+
+2018-06-18 16:27:58 - [TEST_STEP][PASSED] - Statement - out.println("Goal A Columns are verified"): null
+
+2018-06-18 16:27:58 - [TEST_STEP][PASSED] - Statement - If (goalAdata.contains(goalStatisticsList1.get(k).getText())): null
+
+2018-06-18 16:27:58 - [TEST_STEP][PASSED] - Statement - out.println("Goal A Columns are verified"): null
+
+2018-06-18 16:27:58 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:28:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - goalBText = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalB"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:28:08 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - goalBText1 = CustomKeywords.uiaction.CommonUIActions.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SummarizedReportPage/goalBText)): uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:28:08 - [MESSAGE][PASSED] - uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - confirm = goalBText1.trim().contains(goalBText.trim()): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - If (confirm): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - out.println("Goal B Report is verified"): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - goalBdata = CustomKeywords.projectSpecific.Reusability.getTestData("SummarizedReportPage", "goalBText"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:28:08 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - println(goalBdata): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - goalStatisticsListB = driver.findElements(org.openqa.selenium.By.xpath(com.kms.katalon.core.testdata.TestDataFactory.findTestData(OR_file).getValue(2, 30))): Reading excel file with source file 'C:\Users\shalinin\Katalon Studio\HME_Scripts\Data Files\HME_OR.xlsx' and sheet name 'Sheet1'
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - For ([k1 = 1, k1 < size, (k1++)]): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - If (goalBdata.contains(goalStatisticsListB.get(k1).getText())): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - out.println("Goal B Columns are verified"): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - If (goalBdata.contains(goalStatisticsListB.get(k1).getText())): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - out.println("Goal B Columns are verified"): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - If (goalBdata.contains(goalStatisticsListB.get(k1).getText())): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - out.println("Goal B Columns are verified"): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - If (goalBdata.contains(goalStatisticsListB.get(k1).getText())): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - out.println("Goal B Columns are verified"): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - If (goalBdata.contains(goalStatisticsListB.get(k1).getText())): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - Statement - out.println("Goal B Columns are verified"): null
+
+2018-06-18 16:28:08 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:28:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:28:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:28:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:28:23 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:28:42 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:28:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:28:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:28:47 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:29:19 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:29:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:29:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:29:24 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:29:24 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:29:24 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:29:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:29:34 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:29:34 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:29:34 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:29:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:29:44 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:29:44 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:29:44 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:29:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:29:54 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:29:54 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:29:54 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:30:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:30:04 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:30:12 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:30:12 - [TEST_STEP][PASSED] - Statement - assert TCflag == true: null
+
+2018-06-18 16:30:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-06-18 16:30:12 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-18 16:30:12 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-06-18 16:30:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-18 16:30:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-04" classname="Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-04" status="FAILED">
+         <failure type="FAILED" message="org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert TCflag==true
+       |     |
+       false false"/>
+         <system-out><![CDATA[2018-06-18 16:30:13 - [TEST_CASE][FAILED] - Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-04: Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-04 FAILED because (of) org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert TCflag==true
+       |     |
+       false false
+
+2018-06-18 16:30:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:30:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-18 16:30:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-18 16:30:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-18 16:30:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-18 16:30:16 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.deleteAllCookies: uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:30:17 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-06-18 16:30:17 - [MESSAGE][PASSED] - uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:30:17 - [TEST_STEP][PASSED] - Statement - TCflag = true: null
+
+2018-06-18 16:30:17 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-06-18 16:30:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://hme-dev-public-cloud-app.azurewebsites.net/' successfully
+
+2018-06-18 16:30:23 - [MESSAGE][PASSED] - Navigate to 'https://hme-dev-public-cloud-app.azurewebsites.net/' successfully
+
+2018-06-18 16:30:23 - [TEST_STEP][PASSED] - projectSpecific.Reusability.login: projectSpecific.Reusability.login is PASSED
+
+2018-06-18 16:30:23 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:30:23 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:30:23 - [MESSAGE][PASSED] - Text 'selvendrank@nousinfo.com' is set on object 'Object Repository/LoginPage/Username'
+
+2018-06-18 16:30:23 - [MESSAGE][PASSED] - Text 'nous;123' is set on object 'Object Repository/LoginPage/Password'
+
+2018-06-18 16:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login' is clicked on
+
+2018-06-18 16:30:23 - [MESSAGE][PASSED] - projectSpecific.Reusability.login is PASSED
+
+2018-06-18 16:30:23 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:30:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:30:33 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:31:37 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:31:37 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:31:37 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:31:37 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:31:46 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:31:46 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:31:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:31:56 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.clear: uiaction.CommonUIActions.clear is PASSED
+
+2018-06-18 16:31:56 - [MESSAGE][PASSED] - uiaction.CommonUIActions.clear is PASSED
+
+2018-06-18 16:31:56 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.enter: uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:31:56 - [MESSAGE][PASSED] - uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:31:56 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.clear: uiaction.CommonUIActions.clear is PASSED
+
+2018-06-18 16:31:56 - [MESSAGE][PASSED] - uiaction.CommonUIActions.clear is PASSED
+
+2018-06-18 16:31:56 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.enter: uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:31:56 - [MESSAGE][PASSED] - uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:31:56 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.clear: uiaction.CommonUIActions.clear is PASSED
+
+2018-06-18 16:31:56 - [MESSAGE][PASSED] - uiaction.CommonUIActions.clear is PASSED
+
+2018-06-18 16:31:56 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.enter: uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:31:56 - [MESSAGE][PASSED] - uiaction.CommonUIActions.enter is PASSED
+
+2018-06-18 16:31:56 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 100, y = 1000
+
+2018-06-18 16:31:56 - [MESSAGE][PASSED] - Browser is scrolled to position x = 100, y = 1000
+
+2018-06-18 16:31:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:32:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:32:01 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:32:13 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:32:13 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-06-18 16:32:28 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-06-18 16:32:28 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:32:30 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:32:30 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-06-18 16:32:30 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-06-18 16:32:45 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-06-18 16:32:45 - [TEST_STEP][PASSED] - Statement - list_stores = driver.findElements(org.openqa.selenium.By.xpath("//span[@class='StoreTitile level-0']")): null
+
+2018-06-18 16:32:45 - [TEST_STEP][PASSED] - Statement - size_list = list_stores.size(): null
+
+2018-06-18 16:32:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:32:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:32:50 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.xpath("//ul[@role='tree-node']/li[" + size_list + "]")).click(): null
+
+2018-06-18 16:32:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/fromDateSelector' is clicked on
+
+2018-06-18 16:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/fromDateSelector' is clicked on
+
+2018-06-18 16:32:50 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:32:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'June 2018'
+
+2018-06-18 16:32:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'June 2018'
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - Statement - monthTextValue = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "Month"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:32:55 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - Statement - If (!(monthTextValue.equals(month))): null
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - Statement - While (!(monthTextValue.equals(month))): null
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'May 2018'
+
+2018-06-18 16:32:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'May 2018'
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:32:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'April 2018'
+
+2018-06-18 16:32:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'April 2018'
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector' is clicked on
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText)): Text of object 'Object Repository/ReportsPage/monthText' is: 'March 2018'
+
+2018-06-18 16:32:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText' is: 'March 2018'
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - data = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "startdate_TC8"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:32:56 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - startDate = "(//div[@class='rdtPicker']/div/table/tbody/tr/td[text()='" + data + "'])[1]": null
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - println(startDate): null
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - startdateEle = driver.findElement(org.openqa.selenium.By.xpath(startDate)): null
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - Statement - startdateEle.click(): null
+
+2018-06-18 16:32:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/toDateSelector' is clicked on
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/toDateSelector' is clicked on
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'June 2018'
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'June 2018'
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - monthTextValue1 = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "Month"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - If (!(monthTextValue1.equals(month))): null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - While (!(monthTextValue1.equals(month))): null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'May 2018'
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'May 2018'
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'April 2018'
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'April 2018'
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/previousDateSelector2' is clicked on
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - monthText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/monthText2)): Text of object 'Object Repository/ReportsPage/monthText2' is: 'March 2018'
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/ReportsPage/monthText2' is: 'March 2018'
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - monthTextArray = monthText.split(" "): null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - month = monthTextArray[0]: null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - endDate = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "Enddate_goalstatics"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:33:01 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - toDate = "(//div[@class='rdt date-time rdtOpen']/div[@class='rdtPicker']/div/table/tbody/tr/td[text()='" + endDate + "'])[1]": null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - println(toDate): null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - toDateEle = driver.findElement(org.openqa.selenium.By.xpath(toDate)): null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - Statement - toDateEle.click(): null
+
+2018-06-18 16:33:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-18 16:33:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-18 16:33:06 - [TEST_STEP][PASSED] - Statement - dateAttr = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/selectedDate1), "value"): Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate1' is: '03/07/2018'
+
+2018-06-18 16:33:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate1' is: '03/07/2018'
+
+2018-06-18 16:33:06 - [TEST_STEP][PASSED] - Statement - fromDateValue = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "Fromdate_TC8"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:33:06 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:33:06 - [TEST_STEP][PASSED] - Statement - If (!(dateAttr.equals(fromDateValue))): null
+
+2018-06-18 16:33:06 - [TEST_STEP][PASSED] - Statement - dateAttr = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(ReportsPage/selectedDate2), "value"): Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate2' is: '03/08/2018'
+
+2018-06-18 16:33:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ReportsPage/selectedDate2' is: '03/08/2018'
+
+2018-06-18 16:33:06 - [TEST_STEP][PASSED] - Statement - toDateValue = CustomKeywords.projectSpecific.Reusability.getTestData("ReportsPage", "todate_Enddate_goalstatics"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:33:06 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:33:06 - [TEST_STEP][PASSED] - Statement - If (!(dateAttr.equals(toDateValue))): null
+
+2018-06-18 16:33:06 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:33:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:33:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ReportsPage/generateReport' is clicked on
+
+2018-06-18 16:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ReportsPage/generateReport' is clicked on
+
+2018-06-18 16:33:16 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-06-18 16:33:31 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-06-18 16:33:31 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-06-18 16:33:46 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-06-18 16:33:46 - [TEST_STEP][PASSED] - Statement - colourfield = driver.findElement(org.openqa.selenium.By.xpath("(//table[@class='goalstatistics-table goalstatistics-table-content'])[1]//tr[1]")): null
+
+2018-06-18 16:33:46 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-06-18 16:33:46 - [TEST_STEP][PASSED] - Statement - e.printStackTrace(): null
+
+2018-06-18 16:33:46 - [TEST_STEP][PASSED] - Statement - println("Exception of element not found"): null
+
+2018-06-18 16:33:46 - [TEST_STEP][PASSED] - Statement - If (TCflag): null
+
+2018-06-18 16:33:46 - [TEST_STEP][PASSED] - Statement - assert TCflag == true: null
+
+2018-06-18 16:33:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-06-18 16:33:46 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-18 16:33:46 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-06-18 16:33:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-18 16:33:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-06-18 16:30:13 - [TEST_CASE][FAILED] - Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-04: Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-04 FAILED because (of) org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert TCflag==true
+       |     |
+       false false]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MasqueradeTC/HME-Masquerade-05" classname="Test Cases/MasqueradeTC/HME-Masquerade-05" status="PASSED">
+         <system-out><![CDATA[2018-06-18 16:33:47 - [TEST_CASE][PASSED] - Test Cases/MasqueradeTC/HME-Masquerade-05: Browser is closed
+
+2018-06-18 16:33:47 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:33:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-18 16:33:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-18 16:33:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-18 16:33:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-18 16:33:50 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.deleteAllCookies: uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:33:50 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-06-18 16:33:50 - [MESSAGE][PASSED] - uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:33:51 - [TEST_STEP][PASSED] - Statement - TCflag = true: null
+
+2018-06-18 16:33:51 - [TEST_STEP][PASSED] - Statement - Try: Delayed 10 second(s)
+
+2018-06-18 16:33:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://hme-dev-public-cloud-app.azurewebsites.net/admin' successfully
+
+2018-06-18 16:33:53 - [MESSAGE][PASSED] - Navigate to 'https://hme-dev-public-cloud-app.azurewebsites.net/admin' successfully
+
+2018-06-18 16:33:53 - [TEST_STEP][PASSED] - projectSpecific.Reusability.login: projectSpecific.Reusability.login is PASSED
+
+2018-06-18 16:33:53 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:33:53 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:33:54 - [MESSAGE][PASSED] - Text 'nous-abhradipr@hme.com' is set on object 'Object Repository/LoginPage/Username'
+
+2018-06-18 16:33:54 - [MESSAGE][PASSED] - Text '6Qt*qmL88' is set on object 'Object Repository/LoginPage/Password'
+
+2018-06-18 16:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login' is clicked on
+
+2018-06-18 16:33:54 - [MESSAGE][PASSED] - projectSpecific.Reusability.login is PASSED
+
+2018-06-18 16:33:54 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-06-18 16:34:09 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-06-18 16:34:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/HomePage/loggedinUser' is present
+
+2018-06-18 16:34:09 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/loggedinUser' is present
+
+2018-06-18 16:34:09 - [TEST_STEP][PASSED] - Statement - loggedInUser = CustomKeywords.uiaction.CommonUIActions.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(HomePage/loggedinUser)): uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:34:09 - [MESSAGE][PASSED] - uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:34:09 - [TEST_STEP][PASSED] - Statement - loggedInUser = loggedInUser.trim(): null
+
+2018-06-18 16:34:09 - [TEST_STEP][PASSED] - Statement - loggedinText = CustomKeywords.projectSpecific.Reusability.getTestData("HomePage", "loggedinText"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:34:09 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:34:09 - [TEST_STEP][PASSED] - Statement - If (loggedInUser.equals(loggedinText)): null
+
+2018-06-18 16:34:09 - [TEST_STEP][PASSED] - Statement - welcomeUser = CustomKeywords.uiaction.CommonUIActions.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(HomePage/welcomeUserText)): uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:34:09 - [MESSAGE][PASSED] - uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:34:09 - [TEST_STEP][PASSED] - Statement - welcomeUser = welcomeUser.trim(): null
+
+2018-06-18 16:34:09 - [TEST_STEP][PASSED] - Statement - welcomeText = CustomKeywords.projectSpecific.Reusability.getTestData("HomePage", "welcomeText"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:34:09 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:34:09 - [TEST_STEP][PASSED] - Statement - If (welcomeUser.equals(welcomeText)): null
+
+2018-06-18 16:34:09 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:34:20 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:34:20 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:34:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:34:30 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:34:33 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:34:33 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:34:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:34:43 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:34:54 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:34:54 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:35:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - rolesList = driver.findElements(org.openqa.selenium.By.xpath(com.kms.katalon.core.testdata.TestDataFactory.findTestData(OR_file).getValue(2, 18))): Reading excel file with source file 'C:\Users\shalinin\Katalon Studio\HME_Scripts\Data Files\HME_OR.xlsx' and sheet name 'Sheet1'
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - roleName = CustomKeywords.projectSpecific.Reusability.getTestData("RolesPage", "roleName"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:35:04 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - found = false: null
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < rolesList.size(), (i++)]): null
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - If (rolesList.get(i).getText().equals(roleName)): null
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - found = true: null
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - If (found): null
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - println(roleName + "Role found"): null
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - roleViewEditXpath = "//div[@class='ctable']/table/tbody/tr/td[text()='" + roleName + "']/../td[1]": null
+
+2018-06-18 16:35:04 - [TEST_STEP][PASSED] - Statement - driver.findElement(org.openqa.selenium.By.xpath(roleViewEditXpath)).click(): null
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/RolesPage/roleName' is present
+
+2018-06-18 16:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/RolesPage/roleName' is present
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - Statement - roleAttr = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(RolesPage/roleName), "value"): Attribute 'value' of object 'Object Repository/RolesPage/roleName' is: 'Company Admin'
+
+2018-06-18 16:35:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/RolesPage/roleName' is: 'Company Admin'
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Company Admin' and expected text 'Company Admin' are matched 
+
+2018-06-18 16:35:12 - [MESSAGE][PASSED] - Actual text 'Company Admin' and expected text 'Company Admin' are matched 
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/RolesPage/permissionsHeading' is present
+
+2018-06-18 16:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/RolesPage/permissionsHeading' is present
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - Statement - permissionValue = CustomKeywords.uiaction.CommonUIActions.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(/RolesPage/permissionsHeading)): uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:35:12 - [MESSAGE][PASSED] - uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - Statement - permissionText = CustomKeywords.projectSpecific.Reusability.getTestData("RolesPage", "permissionText"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:35:12 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - Statement - If (permissionValue.equals(permissionText)): null
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/RolesPage/addRoleCheckBox' is present
+
+2018-06-18 16:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/RolesPage/addRoleCheckBox' is present
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/RolesPage/addUserCheckBox' is present
+
+2018-06-18 16:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/RolesPage/addUserCheckBox' is present
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/RolesPage/editRoleCheckBox' is present
+
+2018-06-18 16:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/RolesPage/editRoleCheckBox' is present
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/RolesPage/editUserCheckBox' is present
+
+2018-06-18 16:35:12 - [MESSAGE][PASSED] - Object 'Object Repository/RolesPage/editUserCheckBox' is present
+
+2018-06-18 16:35:12 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:35:39 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:35:39 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:35:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:35:49 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:35:54 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:35:54 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:36:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:36:04 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:36:07 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:36:07 - [TEST_STEP][PASSED] - Statement - userPageHeading = CustomKeywords.uiaction.CommonUIActions.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(UsersPage/userHeading)): uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:36:07 - [MESSAGE][PASSED] - uiaction.CommonUIActions.getText is PASSED
+
+2018-06-18 16:36:07 - [TEST_STEP][PASSED] - Statement - userText = CustomKeywords.projectSpecific.Reusability.getTestData("UsersPage", "userHeading"): projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:36:07 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:36:07 - [TEST_STEP][PASSED] - Statement - If (userPageHeading.contains(userText)): null
+
+2018-06-18 16:36:07 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:36:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:36:17 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:36:32 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:36:32 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:36:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:36:42 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/RolesPage/addNewRoleButton' located by 'By.xpath: //span[text()='Add a Role']' is not present after '10' second(s)
+
+2018-06-18 16:36:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/RolesPage/addNewRoleButton' located by 'By.xpath: //span[text()='Add a Role']' is not present after '10' second(s)
+
+2018-06-18 16:36:42 - [TEST_STEP][PASSED] - Statement - userRolesList = driver.findElements(org.openqa.selenium.By.xpath(com.kms.katalon.core.testdata.TestDataFactory.findTestData(OR_file).getValue(2, 24))): Reading excel file with source file 'C:\Users\shalinin\Katalon Studio\HME_Scripts\Data Files\HME_OR.xlsx' and sheet name 'Sheet1'
+
+2018-06-18 16:36:42 - [TEST_STEP][PASSED] - Statement - If (userRolesList.size() > 0): null
+
+2018-06-18 16:36:42 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:36:47 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:36:47 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:36:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:36:57 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.click: uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:37:03 - [MESSAGE][PASSED] - uiaction.CommonUIActions.click is PASSED
+
+2018-06-18 16:37:03 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:37:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:37:13 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/RolesPage/deleteRoleLink' located by 'By.xpath: //a[text()='Delete Role']' is not present after '10' second(s)
+
+2018-06-18 16:37:13 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/RolesPage/deleteRoleLink' located by 'By.xpath: //a[text()='Delete Role']' is not present after '10' second(s)
+
+2018-06-18 16:37:13 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:37:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:37:23 - [TEST_STEP][PASSED] - Statement - assert TCflag == true: null
+
+2018-06-18 16:37:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-06-18 16:37:23 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-18 16:37:23 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-06-18 16:37:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-18 16:37:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MultilingualTC/HME-JWT-04" classname="Test Cases/MultilingualTC/HME-JWT-04" status="PASSED">
+         <system-out><![CDATA[2018-06-18 16:37:23 - [TEST_CASE][PASSED] - Test Cases/MultilingualTC/HME-JWT-04: Browser is closed
+
+2018-06-18 16:37:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:37:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-18 16:37:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-18 16:37:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-18 16:37:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-18 16:37:27 - [TEST_STEP][PASSED] - uiaction.CommonUIActions.deleteAllCookies: uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:37:27 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-06-18 16:37:27 - [MESSAGE][PASSED] - uiaction.CommonUIActions.deleteAllCookies is PASSED
+
+2018-06-18 16:37:27 - [TEST_STEP][PASSED] - Statement - TCflag = true: null
+
+2018-06-18 16:37:27 - [TEST_STEP][PASSED] - Statement - Try: Object 'Object Repository/LoginPage/Username' is present
+
+2018-06-18 16:37:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://hme-dev-public-cloud-app.azurewebsites.net/' successfully
+
+2018-06-18 16:37:30 - [MESSAGE][PASSED] - Navigate to 'https://hme-dev-public-cloud-app.azurewebsites.net/' successfully
+
+2018-06-18 16:37:30 - [TEST_STEP][PASSED] - Statement - oldurl = "https://engdev.hmedtcloud.com/": null
+
+2018-06-18 16:37:30 - [TEST_STEP][PASSED] - projectSpecific.Reusability.login: projectSpecific.Reusability.login is PASSED
+
+2018-06-18 16:37:30 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:37:30 - [MESSAGE][PASSED] - projectSpecific.Reusability.getTestData is PASSED
+
+2018-06-18 16:37:30 - [MESSAGE][PASSED] - Text 'selvendrank@nousinfo.com' is set on object 'Object Repository/LoginPage/Username'
+
+2018-06-18 16:37:30 - [MESSAGE][PASSED] - Text 'nous;123' is set on object 'Object Repository/LoginPage/Password'
+
+2018-06-18 16:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Login' is clicked on
+
+2018-06-18 16:37:30 - [MESSAGE][PASSED] - projectSpecific.Reusability.login is PASSED
+
+2018-06-18 16:37:30 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-18 16:37:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-18 16:37:40 - [TEST_STEP][PASSED] - Statement - oldurlfromapp = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://engdev.hmedtcloud.com/'
+
+2018-06-18 16:38:24 - [MESSAGE][PASSED] - Current window's url is: 'https://engdev.hmedtcloud.com/'
+
+2018-06-18 16:38:24 - [TEST_STEP][PASSED] - Statement - If (oldurlfromapp.equals(oldurl)): null
+
+2018-06-18 16:38:24 - [TEST_STEP][PASSED] - Statement - println("Application home page is displayed and navigated  old URL"): null
+
+2018-06-18 16:38:24 - [TEST_STEP][PASSED] - delay: Delayed 1,200 second(s)
+
+2018-06-18 16:58:24 - [MESSAGE][PASSED] - Delayed 1,200 second(s)
+
+2018-06-18 16:58:24 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-06-18 16:58:44 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-06-18 16:58:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoginPage/Username' is present
+
+2018-06-18 16:58:49 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Username' is present
+
+2018-06-18 16:58:49 - [TEST_STEP][PASSED] - Statement - assert TCflag == true: null
+
+2018-06-18 16:58:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-06-18 16:58:49 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-06-18 16:58:49 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-06-18 16:58:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-18 16:58:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-18 16:20:44 - [TEST_SUITE][FAILED] - RegressionSuite: Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-04 FAILED because (of) org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert TCflag==true
+       |     |
+       false false]]></system-out>
+      <system-err><![CDATA[2018-06-18 16:20:44 - [TEST_SUITE][FAILED] - RegressionSuite: Test Cases/GoalStatisticsTC/HME-Goal Statistics Report-04 FAILED because (of) org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert TCflag==true
+       |     |
+       false false]]></system-err>
+   </testsuite>
+</testsuites>
