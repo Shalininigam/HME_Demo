@@ -205,6 +205,7 @@ try{
 	WebUI.click(findTestObject('ReportsPage/generateReport'))
 
 	WebUI.delay(GlobalVariable.LONG_DELAY)
+	
 
 	'Print Time is displayed in Local Time'
 

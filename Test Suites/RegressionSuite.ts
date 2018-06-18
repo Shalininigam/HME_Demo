@@ -4,7 +4,7 @@
    <name>RegressionSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-18T13:52:50</lastRun>
+   <lastRun>2018-06-18T14:47:32</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,57 +12,39 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>9d0b627b-a75b-4186-b869-581fc87ea0f0</testSuiteGuid>
    <testCaseLink>
-      <guid>c3fdc70d-12b8-4be4-bf3b-ca626c8a1050</guid>
+      <guid>c4a45394-1e81-4cf4-9438-2417589d4eea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateGroupTC/HME-CreateGroup-04</testCaseId>
+      <testCaseId>Test Cases/TimeZoneTC/HME-Account_Setting-Timezone-04</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>21ffc26b-fe83-4fc4-a8da-0245fdcb8531</guid>
+      <guid>64e0c370-3d1b-410e-b7e1-89decd1e4e5c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateGroupTC/HME-CreateGroup-06</testCaseId>
+      <testCaseId>Test Cases/TimeZoneTC/HME-Account_Setting-Timezone-05</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ee7f9ef5-4097-4247-bf23-460cafe66e96</guid>
+      <guid>dd43759a-13c4-4396-97fd-d43c2d0dc5f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateGroupTC/HME-CreateGroup-08</testCaseId>
+      <testCaseId>Test Cases/TimeZoneTC/HME-Account_Setting-Timezone-06</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a39830b3-e05d-4337-8d65-8046afc62a84</guid>
+      <guid>2bf9e881-6aed-4d2f-baa1-4aa942692625</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateGroupTC/HME-DeleteGroup-07</testCaseId>
+      <testCaseId>Test Cases/TimeZoneTC/HME-Browser-Timezone-01</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9c5cc6b3-630b-4ae7-a4d1-c7aa18eb6a60</guid>
+      <guid>5a131ce7-5d6b-4d2d-806f-7c96cb671af7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateGroupTC/HME-EditGroup-05</testCaseId>
+      <testCaseId>Test Cases/TimeZoneTC/HME-Browser-Timezone-02</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d4f9523c-c60f-4813-8107-5100a4a76aca</guid>
+      <guid>490ae715-dd46-4caa-98f0-bb7a66300abb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateGroupTC/HME-ReportingGroupManagement-03</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>60d50537-00fc-4450-8639-cb60503bb019</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateGroupTC/HME-StoreDetailsPage-09</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>88218603-7385-4991-b2e5-ea317ac0510f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateGroupTC/HME-StoreListPage-01</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fc412ce4-ce20-4f7c-812e-669fb694302b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateGroupTC/HME-StoreListPage-02</testCaseId>
+      <testCaseId>Test Cases/TimeZoneTC/HME-Browser-Timezone-03</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
